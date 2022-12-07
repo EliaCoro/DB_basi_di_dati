@@ -1,0 +1,28 @@
+# Basi di Dati
+## Requisiti:
+ - docker (https://docs.docker.com/get-docker/)
+ - docker-compose
+
+Per verificare che siano installati eseguire:
+ - docker -v
+ - docker-compose -v
+
+
+## Avvio del database:
+eseguire nel terminale 'docker-compose up' presente nella seguente cartella
+
+Aprire l'adminer http://localhost:8080
+
+Inserire le seguenti credenziali:
+ - sistema = PostgreSQL
+ - server = db, 
+ - user = user, 
+ - password = pwd, 
+ - Database = BasiDiDati
+
+## Reset
+Nel caso qualcuno combinasse qualche danno (Davide) 
+per eliminare tutti i dati e rieseguire il database eseguire:
+'sudo rm -r db/data'
+
+Per il comando in Windows Davide t'attacchi e ti installi Linux
