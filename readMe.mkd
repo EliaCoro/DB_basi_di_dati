@@ -2,7 +2,7 @@
 ## Requisiti:
  - [docker] (https://docs.docker.com/get-docker/)
  - [docker-compose](https://docs.docker.com/compose/install/)
- N.B: in teoria se si installa docker-desktop dovrebbero esserci entrambi
+<br> N.B: in teoria se si installa docker-desktop dovrebbero esserci entrambi
 
 Per verificare che siano installati eseguire:
  - docker -v
