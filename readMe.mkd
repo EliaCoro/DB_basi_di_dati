@@ -1,6 +1,6 @@
 # Basi di Dati
 ## Requisiti:
- - [docker] (https://docs.docker.com/get-docker/)
+ - [docker](https://docs.docker.com/get-docker/)
  - [docker-compose](https://docs.docker.com/compose/install/)
 <br> N.B: in teoria se si installa docker-desktop dovrebbero esserci entrambi
 
