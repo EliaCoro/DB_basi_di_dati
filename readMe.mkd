@@ -1,7 +1,8 @@
 # Basi di Dati
 ## Requisiti:
- - docker (https://docs.docker.com/get-docker/)
- - docker-compose
+ - [docker] (https://docs.docker.com/get-docker/)
+ - [docker-compose](https://docs.docker.com/compose/install/)
+ N.B: in teoria se si installa docker-desktop dovrebbero esserci entrambi
 
 Per verificare che siano installati eseguire:
  - docker -v
@@ -23,6 +24,6 @@ Inserire le seguenti credenziali:
 ## Reset
 Nel caso qualcuno combinasse qualche danno (Davide) 
 per eliminare tutti i dati e rieseguire il database eseguire:
-'sudo rm -r db/data'
+sudo rm -r db/data
 
 Per il comando in Windows Davide t'attacchi e ti installi Linux
