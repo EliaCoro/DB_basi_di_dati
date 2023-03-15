@@ -7,14 +7,11 @@
 * the screen size (in inches) is also included. The Printer relation records for each printer model whether the printer 
 * produces color output (true, if so), the process type (laser or ink-jet, typically), and the price.
 */
-
-
--- Table: lab.product
-DROP TABLE IF EXISTS lab.product;
-
 CREATE SCHEMA lab
 
-CREATE TABLE IF NOT EXISTS lab.product
+-- Table: lab.product
+
+CREATE TABLE lab.product
 (
     maker varchar(30),
     model integer NOT NULL,
@@ -26,8 +23,7 @@ TABLESPACE pg_default;
 
 
 -- Table: lab.pc
- DROP TABLE IF EXISTS lab.pc;
-CREATE TABLE IF NOT EXISTS lab.pc
+CREATE TABLE lab.pc
 (
     model integer NOT NULL,
     speed real,
@@ -46,8 +42,7 @@ TABLESPACE pg_default;
 
 
 -- Table: lab.laptop
-DROP TABLE IF EXISTS lab.laptop;
-CREATE TABLE IF NOT EXISTS lab.laptop
+CREATE TABLE lab.laptop
 (
     model integer NOT NULL,
     speed real,
@@ -68,8 +63,7 @@ TABLESPACE pg_default;
 
 
 -- Table: lab.printer
-DROP TABLE IF EXISTS lab.printer;
-CREATE TABLE IF NOT EXISTS lab.printer
+CREATE TABLE lab.printer
 (
     model integer NOT NULL,
     color boolean,
