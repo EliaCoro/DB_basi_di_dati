@@ -8,9 +8,11 @@ Per verificare che siano installati eseguire:
  - docker -v
  - docker-compose -v
 
+### Docker desktop
+Se si utilizza docker desktop aggiungere la directory attuale in Impostazioni (in alto a destra) -> Resources -> File sharing
 
 ## Avvio del database:
-eseguire nel terminale 'docker-compose up' presente nella seguente cartella
+Eseguire nel terminale 'docker-compose up' presente nella seguente cartella
 
 Aprire l'adminer http://localhost:8080
 
